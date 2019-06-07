@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Heart">
+
+
+
+    <ProgressBar
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+
+
+
+
+
+<!--    <Button
+        android:id="@+id/btnStart2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="심박수 측정"
+        />-->
+
+    <TextView
+        android:layout_margin="10dp"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="심박수 측정 버튼을 누르고,\n 센서에 손가락을 올려둔 상태로 기다려주십시오. \n\n 심박수 측정이 완료되면 심박수 데이터가 보여집니다."/>
+
+
+
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="심박수 측정"
+        />
+
+
+    <TextView
+        android:id="@+id/textMon"
+        android:layout_margin="30dp"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:text=" "
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/feedbackResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="새로운 음악 추천"/>
+
+</LinearLayout>
